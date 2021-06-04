@@ -1,7 +1,5 @@
-import 
-
-function posts() {
-  <div className="posts">
+export function posts() {
+  return <div className="posts">
 
   </div>
 }
