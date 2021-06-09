@@ -4,10 +4,6 @@
   margin: 3rem auto 6rem;
 }
 
-.container:hover {
-  background: yellow;
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -16,4 +12,14 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
