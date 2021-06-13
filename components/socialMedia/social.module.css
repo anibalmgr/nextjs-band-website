@@ -1,0 +1,10 @@
+.socialContainer {
+  width: 20rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0.2rem;
+}
+
+.icon {
+  width: 100%;
+}

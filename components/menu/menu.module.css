@@ -1,17 +1,26 @@
 .menuItem1 {
   position: fixed;
-  left: 0;
-  color: red;
+  left: 2rem;
+  top: 2rem;
 }
 
 .menuItem2 {
-
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  writing-mode: vertical-rl;
 }
 
 .menuItem3 {
-
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
 }
 
 .menuItem4 {
-
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
 }
