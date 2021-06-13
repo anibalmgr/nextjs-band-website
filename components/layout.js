@@ -13,7 +13,7 @@ export const siteTitle = 'Pacific Oceans'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div>
 
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -32,7 +32,11 @@ export default function Layout({ children, home }) {
       </Head>
       <VideoBK />
       <Menu />
-      <SocialMedia />
+      <div className={styles.container}>
+        {children}
+        <SocialMedia/>
+
+      </div>
 
     </div>
   )

@@ -1,8 +1,7 @@
 .container {
+  width: 100vw;
   display: grid;
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  grid-template-columns: minmax(50px, 1fr) repeat(12, minmax(10px, 115px)) minmax(50px, 1fr);
 }
 
 .header {

@@ -17,7 +17,7 @@ export async function getStaticProps() {
 export default function News({ allPostsData }) {
   return (
 <Layout>
-
+  <h1>Music</h1>
   <ul className={utilStyles.list}>
     {allPostsData.map(({ id, date, title }) => (
       <li className={utilStyles.listItem} key={id}>

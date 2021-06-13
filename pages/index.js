@@ -20,7 +20,8 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
+      <h1 style={{gridColumn: "5 / span 6", textAlign: "center"}}>Pacific Oceans</h1>
+      <h1 style={{gridColumn: "4 / span 8", textAlign: "center"}}>Comming Soon</h1>
     </Layout>
   )
 }

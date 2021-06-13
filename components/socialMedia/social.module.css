@@ -1,5 +1,9 @@
 .socialContainer {
-  width: 20rem;
+  position: fixed;
+  bottom: 2.6rem;
+  width: 1rem;
+  grid-column: 6 / span 4;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 0.2rem;
