@@ -4,6 +4,14 @@
   grid-template-columns: minmax(50px, 1fr) repeat(12, minmax(10px, 115px)) minmax(50px, 1fr);
 }
 
+.internalGrid {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(10px, 115px));
+  grid-template-rows: repeat(12, 1fr);
+}
+
 .header {
   display: flex;
   flex-direction: column;

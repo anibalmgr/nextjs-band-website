@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
+import Landing from '../components/landing';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/news';
 import Link from 'next/link';
@@ -20,8 +21,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <h1 style={{gridColumn: "5 / span 6", textAlign: "center"}}>Pacific Oceans</h1>
-      <h1 style={{gridColumn: "4 / span 8", textAlign: "center"}}>Comming Soon</h1>
+      <Landing />
     </Layout>
   )
 }

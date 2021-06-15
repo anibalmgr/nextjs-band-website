@@ -4,7 +4,7 @@ import styles from './menu.module.css'
 
 export default function Menu() {
   return (
-    <div>
+    <div className={styles.menu}>
       <Link href="/music">
         <a className={styles.menuItem1}>MUSIC</a>
       </Link>
