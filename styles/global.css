@@ -47,3 +47,13 @@ img {
 .img {
   border: solid black 1px;
 }
+
+.innerContainer {
+  grid-column: 2 / -2;
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(12, minmax(10px, 115px));
+  grid-template-rows: repeat(12, 1fr);
+}

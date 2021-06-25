@@ -11,6 +11,7 @@ const name = 'Pacific Oceans'
 export const siteTitle = 'Pacific Oceans'
 
 export default function Layout({ children, home }) {
+
   return (
     <div>
 
@@ -30,7 +31,7 @@ export default function Layout({ children, home }) {
         {/* <meta name="twitter:card" content="summary_large_image" /> */}
       </Head>
       <VideoBK />
-      <Menu />
+      <Menu home={home}/>
       <div className={styles.container}>
         {children}
         <SocialMedia/>

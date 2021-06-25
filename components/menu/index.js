@@ -2,7 +2,8 @@ import Link from 'next/link';
 import styles from './menu.module.css'
 
 
-export default function Menu() {
+export default function Menu({home}) {
+  console.log(home);
   return (
     <div className={styles.menu}>
       <Link href="/music">
@@ -17,6 +18,9 @@ export default function Menu() {
       <Link href="/about">
         <a className={styles.menuItem4}>ABOUT US</a>
       </Link>
+      {!home && (<Link href="/">
+              <a className={styles.menuItem0}>PACIFIC OCEANS</a>
+            </Link>)}
     </div>
   )
 }
