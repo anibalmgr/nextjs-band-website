@@ -16,6 +16,14 @@
   justify-self: center;
 }
 
+/* Delete in future versions */
+.titlePreweb {
+  grid-column: 1 / -1;
+  grid-row: 2 / 4;
+  align-self: center;
+  justify-self: center;
+}
+
 .landBox {
   padding: 1rem;
   grid-column: 8 / span 2;

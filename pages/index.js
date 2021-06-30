@@ -6,6 +6,8 @@ import { getSortedPostsData } from '../lib/news';
 import Link from 'next/link';
 import Date from '../components/date';
 
+import Preweb from '../components/preweb';
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
   return {
@@ -17,11 +19,12 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+    <Layout preweb>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <Landing />
+      <Preweb/>
+      {/* <Landing /> */}
     </Layout>
   )
 }

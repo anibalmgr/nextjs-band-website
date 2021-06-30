@@ -10,7 +10,7 @@ import SocialMedia from './socialMedia';
 const name = 'Pacific Oceans'
 export const siteTitle = 'Pacific Oceans'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, preweb }) {
 
   return (
     <div>
@@ -31,10 +31,10 @@ export default function Layout({ children, home }) {
         {/* <meta name="twitter:card" content="summary_large_image" /> */}
       </Head>
       <VideoBK />
-      <Menu home={home}/>
+      {!preweb && <Menu home={home}/>}
       <div className={styles.container}>
         {children}
-        <SocialMedia/>
+        {!preweb && <SocialMedia/>}
 
       </div>
 

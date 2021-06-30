@@ -1,0 +1,51 @@
+.release {
+  padding: 3rem 0;
+  grid-column: 2 / -2;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.release h3 {
+  font-size: 40px;
+  justify-self: center;
+}
+
+.release p, .release a {
+  font-size: 16px;
+}
+
+.release .image {
+  justify-self: center;
+ width: 40vw;
+}
+
+.black, .black * {
+  font-weight: 600;
+}
+
+.home {
+  color: white;
+  background: rgba(60, 140, 255, 0.5);
+  position: sticky;
+  bottom: 30px;
+  padding-left: 10px;
+  border: black solid 1px;
+  width: 70px;
+}
+
+.home:hover {
+  color: black;
+  background: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .release {
+    padding: 3rem 0;
+    grid-column: 3 / -3;
+  }
+
+  .release p, .release a {
+    font-size: 18px;
+  }
+
+}
