@@ -39,6 +39,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 img {
@@ -60,6 +61,9 @@ img {
   grid-template-rows: repeat(12, 1fr);
 }
 
+.pointer {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 500px) {
   body {

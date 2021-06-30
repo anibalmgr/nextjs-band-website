@@ -22,6 +22,14 @@ export default function Home({ allPostsData }) {
     <Layout preweb>
       <Head>
         <title>{siteTitle}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta property="og:title" content="Pacific Oceans" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Pacific Oceans" />
+        <meta property="og:description" content="Pacific Oceans' website." />
+        <meta property="og:url"  content="https://pacificoceans.co.uk/" />
+        <meta property="og:image" content="https://pacificoceans.co.uk/images/single-cover-1.jpg" />
       </Head>
       <Preweb/>
       {/* <Landing /> */}
