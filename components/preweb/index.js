@@ -7,9 +7,8 @@ export default function preweb() {
     <div className="innerContainer">
       <div className={style.preweb}>
         <img className={style.imgCover + " img"} src={"./images/single-cover-1.jpg"} alt="profile" />
-        <Button text="Listen on Spotify" link="https://open.spotify.com/track/5iYAgwC9Q9ctuegJifzZc0?si=e2627ea586364903"/>
-        <Button text="Listen on Spotify" link="spotify:track:5iYAgwC9Q9ctuegJifzZc0" />
-        <Button text="Listen on Spotify" />
+        <Button text="Listen on Spotify" link="https://open.spotify.com/album/5dLMvtLUnTMgcIXkW6UoWT"/>
+        <Button text="Listen on Apple Music" link="https://music.apple.com/us/album/the-state-of-things-single/1572364582"/>
         <Link href="/release">
           <p className={style.link + " pointer"}>Check out the press release</p>
         </Link>
