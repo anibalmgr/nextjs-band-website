@@ -56,7 +56,7 @@ export default function PressRelease() {
          <p className={style.imgCredit}>Archie Graham</p>
        </div>
        <Link href="/">
-         <p className={style.home}>Home</p>
+         <p className={style.homea}>Home</p>
        </Link>
      </div>
    </Layout>
