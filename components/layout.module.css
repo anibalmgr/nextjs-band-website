@@ -2,6 +2,7 @@
   width: 100vw;
   display: grid;
   grid-template-columns: minmax(50px, 1fr) repeat(12, minmax(10px, 115px)) minmax(50px, 1fr);
+  overflow-x: hidden; 
 }
 
 /* .internalGrid {
