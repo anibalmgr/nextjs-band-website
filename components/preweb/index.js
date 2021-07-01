@@ -11,8 +11,7 @@ export default function preweb() {
         <Button text="Listen on Spotify" link="spotify:track:5iYAgwC9Q9ctuegJifzZc0" />
         <Button text="Listen on Spotify" />
         <Link href="/release">
-          <p className={style.link + " pointer"}>Download the press release</p>
-
+          <p className={style.link + " pointer"}>Check out the press release</p>
         </Link>
       </div>
       <div className={style.preMenu}>
