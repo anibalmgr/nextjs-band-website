@@ -19,10 +19,9 @@ export default function Custom404() {
         <meta property="og:url"  content="https://pacificoceans.co.uk/" />
         <meta property="og:image" content="https://pacificoceans.co.uk/images/single-cover-1.jpg" />
       </Head>
-      <Preweb/>
-      {/* // <div className="innerContainer">
+      // <div className="innerContainer">
         //   <h1 className={style.s404}> Error 404 <br /> Page Not Found</h1>
-      // </div> */}
+      // </div>
     </Layout>
     )
 }
