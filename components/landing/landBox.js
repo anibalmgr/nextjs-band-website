@@ -5,7 +5,7 @@ export default function LandBox(props) {
     <div className={style.landBox}>
       <h3>{props.title}</h3>
       <p>{props.text}</p>
-      <div className={style.imgContainer}>
+      <div className={style.imgBoxContainer}>
         <img className={style.bgImg} src={props.img} alt={props.alt} />
       </div>
     </div>

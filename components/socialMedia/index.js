@@ -2,9 +2,12 @@ import { FaSpotify, FaYoutube, FaInstagram, FaFacebookSquare, FaTwitter } from '
 import Link from 'next/link';
 import styles from './social.module.css';
 
-export default function SocialMedia() {
+export default function SocialMedia(props) {
+
+  const socialClasses = props.position ? styles.socialContainer + " " + props.position : styles.socialContainer;
+
   return (
-    <div className={styles.socialContainer}>
+    <div className={socialClasses}>
       <Link href="https://www.instagram.com/inthepacificoceans/">
         <FaInstagram className={styles.icon}/>
       </Link>

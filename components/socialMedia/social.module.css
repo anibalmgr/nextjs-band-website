@@ -1,13 +1,7 @@
 
-
 .socialContainer {
-  position: fixed;
-  bottom: 2.6rem;
-  left: 35%;
-  width: 30%;
-  height: 2rem;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 40px);
   justify-items: center;
 }
 
