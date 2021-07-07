@@ -19,7 +19,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout preweb>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title>
         <meta charset="utf-8" />
@@ -31,8 +31,7 @@ export default function Home({ allPostsData }) {
         <meta property="og:url"  content="https://pacificoceans.co.uk/" />
         <meta property="og:image" content="https://pacificoceans.co.uk/images/single-cover-1.jpg" />
       </Head>
-      <Preweb/>
-      {/* <Landing /> */}
+      <Landing />
     </Layout>
   )
 }

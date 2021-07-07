@@ -31,7 +31,13 @@
 .menuItem4 {
   position: fixed;
   left: 2rem;
-  bottom: 2rem;
+  bottom: 4rem;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
+}
+
+@media screen and (min-width: 500px) {
+  .menuItem4 {
+    bottom: 2rem;
+  }
 }

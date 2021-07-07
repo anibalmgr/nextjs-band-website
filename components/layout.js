@@ -3,9 +3,8 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
 
-import VideoBK from './VideoBK';
+import VideoBK from './videoBK';
 import Menu from './menu';
-import SocialMedia from './socialMedia';
 
 const name = 'Pacific Oceans'
 export const siteTitle = 'Pacific Oceans'
@@ -34,8 +33,6 @@ export default function Layout({ children, home, preweb }) {
       {!preweb && <Menu home={home}/>}
       <div className={styles.container}>
         {children}
-        {!preweb && <SocialMedia/>}
-
       </div>
 
     </div>

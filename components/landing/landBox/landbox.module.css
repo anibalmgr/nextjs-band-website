@@ -1,0 +1,53 @@
+.landBox {
+  grid-column: 1 / -1;
+  grid-row: 3 / -3;
+  padding: 1rem;
+  background-color: white;
+  border: solid black 1px;
+
+  display: grid;
+  grid-template-columns: 1fr 30px;
+  grid-template-rows: 30px repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+  opacity: 95%;
+  grid-gap: 0.5rem;
+  width: 98%;
+
+}
+
+.landBox h3, .landBox p, .imgBoxContainer {
+  grid-column: 1;
+}
+
+.imgBoxContainer {
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
+}
+
+.imgBoxContainer img {
+  display: block;
+  width: 100%;
+  transform: translateY(-20%);
+}
+
+.closeX {
+  width: 30px;
+  grid-column: 2;
+  transform: translateX(4rem) translateY(-4rem);
+}
+
+@media screen and (min-width: 500px) {
+  .landBox {
+    grid-column: 8 / -3;
+    grid-row: 8 / -3;
+
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: 30px repeat(2, auto);
+    justify-items: left;
+    opacity: 100%;
+    grid-gap: 0.5rem;
+    width: 100%;
+  }
+}
