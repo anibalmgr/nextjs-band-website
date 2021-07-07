@@ -1,3 +1,5 @@
+
+import { useState } from 'react';
 import LandBox from './landBox';
 import SocialMedia from '../socialMedia';
 
@@ -6,6 +8,14 @@ import layoutStyle from '../layout.module.css';
 import style from './landing.module.css';
 
 export default function Landing(preweb) {
+
+  // const [isLandBox, setLandBox] = useState(true);
+  const [isLandBox, setLandBox] = useState(true);
+
+  function close() {
+    setLandBox(false);
+  }
+
   return (
     <div style={{gridColumn: "2 / span 12"}} className="innerContainer">
       {/* Change h1 class in future versions */}
@@ -14,7 +24,7 @@ export default function Landing(preweb) {
         <img className="img" src={"./images/landing.jpg"} alt="profile" />
         <SocialMedia position={style.socialPosition}/>
       </div>
-      <LandBox title="New Release" text="The State of Things" img={"images/profile.jpg"}/>
+      {isLandBox && <LandBox title="New Release" text="The State of Things" img={"images/profile.jpg"} setClick={close}/>}
     </div>
   )
 }
