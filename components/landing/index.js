@@ -13,7 +13,6 @@ export default function Landing(preweb) {
       <div className={style.imgContainer}>
         <img className="img" src={"./images/landing.jpg"} alt="profile" />
         <SocialMedia position={style.socialPosition}/>
-
       </div>
       <LandBox title="New Release" text="The State of Things" img={"images/profile.jpg"}/>
     </div>

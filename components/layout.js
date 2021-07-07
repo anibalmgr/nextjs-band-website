@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import Link from 'next/link';
 
-import VideoBK from './VideoBK';
+import VideoBK from './videoBK';
 import Menu from './menu';
 
 const name = 'Pacific Oceans'

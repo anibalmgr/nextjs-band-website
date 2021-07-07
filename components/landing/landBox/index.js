@@ -1,4 +1,4 @@
-import style from './landing.module.css';
+import style from './landbox.module.css';
 
 export default function LandBox(props) {
   return (

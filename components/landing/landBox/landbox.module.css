@@ -1,0 +1,26 @@
+.landBox {
+  padding: 1rem;
+  grid-column: 8 / span 2;
+  grid-row: 8 / span 2;
+  background-color: white;
+  border: solid black 1px;
+  width: 20rem;
+  height: 15rem;
+
+  display: grid;
+  opacity: 97%;
+  grid-gap: 0.5rem;
+
+}
+
+.imgBoxContainer {
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
+}
+
+.imgBoxContainer img {
+  display: block;
+  width: 100%;
+  transform: translateY(-20%);
+}

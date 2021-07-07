@@ -1,11 +1,25 @@
 
 .socialContainer {
   display: grid;
-  grid-template-columns: repeat(5, 40px);
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 3rem;
   justify-items: center;
 }
 
 .icon {
   min-height: 20px;
   width: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .socialContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    justify-items: left;
+  }
+
+  .icon {
+    min-height: 10px;
+    width: 10px;
+  }
 }

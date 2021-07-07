@@ -3,7 +3,7 @@ import styles from './menu.module.css'
 
 
 export default function Menu({home}) {
-  console.log(home);
+  
   return (
     <div className={styles.menu}>
       <Link href="/music">
