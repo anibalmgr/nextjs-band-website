@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import style from './preweb.module.css';
-import Button from './button';
+import Button from '../button';
 
 export default function preweb() {
   return (
