@@ -1,0 +1,23 @@
+.title {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.musicBox {
+  background: white;
+  grid-row: 5 / 9;
+  grid-column: 2 / 12;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.musicImg {
+  grid-column: 1;
+}
+
+.musicInfo {
+  grid-column: 2;
+}
