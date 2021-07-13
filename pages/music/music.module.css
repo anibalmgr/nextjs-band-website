@@ -9,7 +9,7 @@
   grid-column: 3 / -3;
   justify-self: center;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-rows: 1fr 1fr;
   grid-gap: 3rem;
   align-content: stretch;
@@ -21,6 +21,7 @@
   justify-self: center;
 }
 
+/* Check the song title */
 .musicInfo {
   grid-row: 2;
   display: grid;
@@ -33,6 +34,9 @@
   align-self: end;
 }
 
+@media screen and (min-width: 600) {
+
+}
 @media screen and (min-width: 700px) {
 
   .title {
@@ -43,10 +47,8 @@
     max-width: 900px;
     grid-row: 3 / 9;
     grid-column: 1 / -1;
-    justify-self: space-between;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     grid-gap: 2rem;
   }
 
@@ -59,7 +61,4 @@
     grid-column: 2;
   }
 
-  .musicImg {
-    height: 100%;
-  }
 }
