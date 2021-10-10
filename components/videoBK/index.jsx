@@ -8,9 +8,11 @@ export default function VideoBK() {
   const isTablet = useMediaQuery({ query: '(min-Width: 600px)'});
 
   return (
-      isTablet ? <video className={styles.video} autoPlay muted loop>
+      isTablet ? 
+      <video className={styles.video} autoPlay muted loop>
         <source src={"./videos/videoBK-small.mp4"} type="video/mp4" />
-      </video> : <img className={styles.video} src="./images/background.jpg" alt="background" />
+      </video> :
+      <img className={styles.video} src="./images/background.jpg" alt="background" />
 
       )
       }
