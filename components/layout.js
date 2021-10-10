@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import styles from './layout.module.css';
-import Link from 'next/link';
 
 import VideoBK from './videoBK';
 import Menu from './menu';
@@ -31,7 +28,7 @@ export default function Layout({ children, home, preweb }) {
       </Head>
       <VideoBK />
       {!preweb && <Menu home={home}/>}
-      <div className={styles.container}>
+      <div className="overflow-hidden w-screen">
         {children}
       </div>
 

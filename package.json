@@ -12,12 +12,17 @@
     "date-fns": "^2.22.1",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
-    "next": "^10.2.3",
+    "next": "^11.1.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.2.0",
     "react-responsive": "^8.2.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
   }
 }
