@@ -3,9 +3,7 @@ import utilStyles from '../../styles/utils.module.css';
 import { getSortedPostsData } from '../../lib/news';
 import Link from 'next/link';
 import Date from '../../components/date';
-
-// Styles
-import styles from './news.module.css';
+import { Title } from '../../components/fonts';
 
 
 export async function getStaticProps() {
@@ -20,18 +18,20 @@ export async function getStaticProps() {
 export default function News({ allPostsData }) {
   return (
 <Layout>
-  <div className="innerContainer">
-    <h1 className="pageTitle">NEWS</h1>
-    <ul className={utilStyles.list}>
+  <div className="h-screen w-full grid grid-cols-12 grid-rows-6">
+    <div className="col-span-12 row-span-2 text-center flex items-end">
+      <Title>NEWS</Title>
+    </div>
+    <ul className="col-start-3 col-span-8 flex flex-col gap-8">
       {allPostsData.map(({ id, date, title }) => (
-        <li className={utilStyles.listItem} key={id}>
+        <li key={id}>
+          <small>
+            <Date dateString={date} />
+          </small>
+          <br />
           <Link href={`/news/${id}`}>
             <a>{title}</a>
           </Link>
-          <br />
-          <small className={utilStyles.lightText}>
-            <Date dateString={date} />
-          </small>
         </li>
       ))}
     </ul>

@@ -26,7 +26,7 @@ export default function Landing(preweb) {
         <div>
         </div>
       </div>
-      {isLandBox && <LandBox title="New Release" text="The State of Things" img={"images/profile.jpg"} setClick={close}/>}
+      {/* {isLandBox && <LandBox title="New Release" text="The State of Things" img={"images/profile.jpg"} setClick={close}/>} */}
     </div>
   )
 }
