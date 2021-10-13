@@ -19,7 +19,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout preweb>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title>
         <meta charset="utf-8" />

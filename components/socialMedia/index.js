@@ -10,13 +10,13 @@ export default function SocialMedia(props) {
       <Link href="https://www.instagram.com/inthepacificoceans/">
         <FaInstagram className={iconStyle}/>
       </Link>
-      <Link href="/">
+      <Link href="https://open.spotify.com/artist/0EQKi7Dqf5biZ3RaVGbZpt?si=ksYgDL7VSo-4nbx0VMkBkQ&dl_branch=1">
         <FaSpotify className={iconStyle} />
       </Link>
       <Link href="https://www.youtube.com/channel/UCmdo5AheBHZjeNuE9IdoL2A">
         <FaYoutube className={iconStyle}/>
       </Link>
-      <Link href="/">
+      <Link href="https://www.facebook.com/Pacific-Oceans-107566414921715/">
         <FaFacebookSquare className={iconStyle} />
       </Link>
       <Link href="https://twitter.com/PacificOceanos">
