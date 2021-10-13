@@ -18,7 +18,7 @@ export default function Landing(preweb) {
       <div className="col-start-1 col-span-12 row-start-3 row-span-2 z-10 text-center flex items-center sm:min-w-max">
       <Title>PACIFIC OCEANS</Title>
       </div>
-      <div className="w-full col-start-2 col-span-10 sm:col-start-4 sm:col-span-6 row-start-2 row-span-4 flex flex-col justify-center">
+      <div className="w-full col-start-3 col-span-8 sm:col-start-4 sm:col-span-6 row-start-2 row-span-4 flex flex-col justify-center">
         <div className="rounded-sm border border-black w-full overflow-hidden content-center opacity-80">
           <img className="object-cover" src={"./images/landing-photo.jpeg"} alt="profile" />
         </div>
