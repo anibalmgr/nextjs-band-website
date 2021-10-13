@@ -27,7 +27,7 @@ export default function Layout({ children, home, preweb }) {
         {/* <meta name="twitter:card" content="summary_large_image" /> */}
       </Head>
       <VideoBK />
-      {!preweb && <Menu home={home}/>}
+      <Menu home={home}/>
       <div className="overflow-hidden w-screen">
         {children}
       </div>
