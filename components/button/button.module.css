@@ -1,0 +1,29 @@
+.button {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+  border: solid black 1px;
+  background: white;
+  padding-left: 16px;
+  padding-right: 1rem;
+  grid-template-columns: 2rem 1fr 30px;
+  grid-gap: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.triangle {
+  height: 30%;
+}
+
+.arrow {
+  padding-right: 10px;
+}
+
+.button a {
+  font-size: 16px;
+  font-weight: 600;
+}
